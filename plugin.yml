@@ -1,0 +1,16 @@
+name: ScoreHud
+main: JackMD\ScoreHud\ScoreHud
+api: 3.0.0
+mcpe-protocol: 422
+version: 5.2.0
+author: JackMD
+description: Add fully customizable scoreboards to your server.
+virions:
+- ScoreFactory
+- UpdateNotifier
+- ConfigUpdater
+permissions:
+  sh.command.sh:
+    default: true
+    description: Allow players to use /scorehud command.
+
